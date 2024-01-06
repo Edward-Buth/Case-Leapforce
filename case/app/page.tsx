@@ -1,12 +1,22 @@
 import { Button } from '@/components/ui/button';
+import { Heading } from './_components/heading';
+import { Heroes } from './_components/heroes';
 
 export default function Home() {
   return (
-    <div>
-      <Button variant="mine">
-        Delete
-      </Button>
+    <div className='min-h-full flex flex-col'>
+      <div className='flex flex-col items-center
+      justify-center text-center gap-y-8
+      flex-1 px-3 pb-5 md:pt-0 sm:pt-0 pt-20'>
+        <Heading />
+        <Heroes />
+      </div>
     </div>
 
   );
 }
+
+
+{/* <Button variant="mine">
+        Delete
+      </Button> */}
