@@ -20,6 +20,7 @@ const config = {
     extend: {
       fontFamily: {
         gtafont: ["gta", "sans-serif"],
+        ttfont: ["tt", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",

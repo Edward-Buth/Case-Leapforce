@@ -1,6 +1,8 @@
 import { Button } from '@/components/ui/button';
 import { Heading } from './_components/heading';
 import { Heroes } from './_components/heroes';
+import 'tailwindcss/tailwind.css';
+
 
 export default function Home() {
   return (
