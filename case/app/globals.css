@@ -1,7 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
+@font-face {
+  font-family: 'gta';
+  src: url(../public/fonts/GTAlpina-Light.otf) format('truetype');
+}
+@font-face {
+  font-family: 'tt';
+  src: url(../public/fonts/TT\ Commons\ Pro\ Normal.otf) format('truetype');
+}
+
 html,
 body,
 :root {
